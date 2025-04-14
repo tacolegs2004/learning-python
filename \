@@ -1,0 +1,26 @@
+def __init__():
+    name = "taco"
+
+    if name:
+        return name
+    else:
+        return null
+
+print(__init__())
+
+def test():
+    value = "test"
+
+    match value:
+        case 400:
+            print("Success")
+        case 600:
+            print("Failed")
+        case _:
+            print("Faulty value.")
+
+
+
+
+test()
+    
