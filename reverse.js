@@ -4,13 +4,12 @@ let reversedArray = []
 
 function reverseString() {
   for (const name of names) {
-    reversedArray.push(name.split("").reverse().join(""))
+    const reversedName = name.split("").reverse().join("")
+    reversedArray.push(reversedName)
   }
-
   reversedArray.reverse()
 
   console.log(reversedArray)
-
 }
 
 reverseString()
